@@ -1,5 +1,19 @@
 # Qwen2.5 GRPO Fine-Tuning Study
 
+## Interactive Streamlit app
+
+A companion application is available in [streamlit_app/app.py](streamlit_app/app.py).
+
+```bash
+python -m pip install -r streamlit_app/requirements.txt
+python -m streamlit run streamlit_app/app.py
+```
+
+This is a reward-function laboratory, not 3B-model inference or GPU fine-tuning.
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for Community Cloud setup, validation coverage, and runtime requirements. A live deployment is not yet confirmed.
+
+
 A notebook exploring GRPO fine-tuning of `Qwen/Qwen2.5-3B-Instruct` using Unsloth and the GSM8K dataset.
 
 ## Why this project matters
